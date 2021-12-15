@@ -40,8 +40,8 @@ SPACING:
 header {
   background-image: linear-gradient(
       to bottom,
-      rgba(92, 91, 25, 0.525),
-      rgba(1, 136, 30, 0.521)
+      rgba(0, 0, 0, 0.225),
+      rgba(0, 0, 0, 0.525)
     ),
     url(./imgs/kili.jpg);
   background-size: cover;
@@ -107,6 +107,6 @@ nav {
 
 .btn-hero {
   color: #fff;
-  background-color: #087f5b;
-  border: 1px solid #c3fae8;
+  background-color: #065940;
+  border: 1px solid #b5d9ce;
 }
