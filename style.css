@@ -43,7 +43,7 @@ header {
       rgba(0, 0, 0, 0.225),
       rgba(0, 0, 0, 0.525)
     ),
-    url(./imgs/kili.jpg);
+    url(./imgs/marble.jpg);
   background-size: cover;
   height: 100vh;
 }
@@ -118,4 +118,70 @@ nav {
 .btn-hero:active {
   transition: all 0.3s;
   background-color: #066649;
+}
+
+.section-profile {
+  position: relative;
+  /* background-color: #b5d9ce; */
+  padding: 9.6rem;
+  color: #033324;
+  line-height: 1.6;
+}
+
+.profile-info {
+}
+
+.profile-header {
+  font-size: 3.9rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.profile-header--text {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+}
+
+.profile-core-text {
+  border-top: 1px solid #065940;
+  padding-top: 1.6rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+}
+
+.btn-profile:link,
+.btn-profile:visited {
+  color: #fff;
+  background-color: #065940;
+  border: 3px solid #b5d9ce;
+}
+
+.btn-profile:hover,
+.btn-profile:active {
+  transition: all 0.3s;
+  background-color: #066649;
+}
+
+.profile-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  height: 48rem;
+  z-index: 1;
+}
+
+.connector-img-container {
+}
+
+.connector-img {
+  position: absolute;
+  top: 0;
+  right: 20rem;
+  height: 96rem;
+  opacity: 0.5;
 }

@@ -1,0 +1,50 @@
+/* 
+PRIMARY 
+#066649;
+
+SHADES
+#065940;
+TINTS
+#fff;
+#b5d9ce	
+*/
+
+* {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+}
+
+html {
+  font-size: 62.5%;
+  color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10rem;
+}
