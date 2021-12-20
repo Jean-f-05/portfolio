@@ -98,7 +98,7 @@ nav {
   font-size: 3.2rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 6.4rem;
 }
 
 .hero-text {
@@ -123,12 +123,15 @@ nav {
 .section-profile {
   position: relative;
   /* background-color: #b5d9ce; */
-  padding: 9.6rem;
+  padding: 9.6rem 3.2rem;
   color: #033324;
   line-height: 1.6;
-}
 
-.profile-info {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.225),
+    rgba(0, 0, 0, 0.525)
+  );
 }
 
 .profile-header {
@@ -149,6 +152,23 @@ nav {
   font-size: 2.5rem;
   font-weight: 400;
   margin-bottom: 3.2rem;
+}
+
+.profile-quote {
+  font-size: 3.9rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+  color: #b5d9ce;
+  text-align: center;
+}
+
+.profile-quote span {
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+
+.resume {
+  text-align: center;
 }
 
 .btn-profile:link,
@@ -175,13 +195,70 @@ nav {
   z-index: 1;
 }
 
-.connector-img-container {
-}
-
 .connector-img {
   position: absolute;
   top: 0;
   right: 20rem;
   height: 96rem;
   opacity: 0.5;
+}
+
+.section-portflio {
+  padding: 9.6rem 3.2rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.225),
+    rgba(0, 0, 0, 0.525)
+  );
+}
+
+.porfolio-header {
+  color: #033324;
+  font-size: 3.1rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+  letter-spacing: 0.15rem;
+}
+
+.porfolio-text {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+}
+
+.portfolio-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-container a img {
+  transition: all 0.4s;
+}
+
+.portfolio-container a img:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-wip img {
+  opacity: 0.5;
+  filter: blur(0.15rem);
+}
+
+.container-wip::after {
+  position: absolute;
+  display: block;
+  content: "AVAILABLE SOON";
+  position: absolute;
+  top: 18%;
+  right: -3%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: red;
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
 }

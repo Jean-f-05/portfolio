@@ -45,6 +45,13 @@ html {
 }
 
 .grid--2-cols {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   column-gap: 10rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 5rem;
+  /* justify-items: center; */
 }
