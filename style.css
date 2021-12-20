@@ -212,7 +212,7 @@ nav {
   );
 }
 
-.porfolio-header {
+.portfolio-header {
   color: #033324;
   font-size: 3.1rem;
   font-weight: 600;
@@ -261,4 +261,10 @@ nav {
   background-color: red;
   padding: 1rem 2rem;
   border: 1px solid #fff;
+}
+
+.section-cta {
+  padding: 9.6rem 3.2rem;
+  background-color: gray;
+  color: #033324;
 }
