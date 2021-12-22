@@ -111,19 +111,45 @@
       </div>
     </section>
     <section class="section-cta">
-      <div class="container">
-        <h1>HELLO</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
-          pariatur iusto,
-        </p>
-        <form action="">
-          <div>
-            <label for="email"></label>
-            <input type="email" placeholder="Johndoe@hotmail.com" />
-          </div>
-          <button>SUBMIT</button>
-        </form>
+      <div class="container grid grid--2-cols">
+        <div>
+          <h1 class="cta-header">GET IN TOUCH!</h1>
+          <p class="cta-text">
+            If you would like to know more about me or my works, reach me.
+          </p>
+          <div class="cta-img"></div>
+        </div>
+
+        <div>
+          <form action="">
+            <div class="cta-form">
+              <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="John Doe" />
+              </div>
+
+              <div>
+                <label for="email">Your E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="John.doe@hotmail.com"
+                />
+              </div>
+
+              <div>
+                <label for="comment">A spectacular comment</label>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  cols="20"
+                  rows="5"
+                ></textarea>
+              </div>
+            </div>
+            <button class="btn">SUBMIT</button>
+          </form>
+        </div>
       </div>
     </section>
   </body>
