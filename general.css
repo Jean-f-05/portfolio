@@ -1,12 +1,14 @@
 /* 
-PRIMARY 
-#066649;
+PRIMARY COLORS
+#013440
+#026873
+#590C13
+#D9560B
+#BF3A0A
+
 
 SHADES
-#065940;
-TINTS
-#fff;
-#b5d9ce	
+#391103;
 */
 
 * {
@@ -32,6 +34,8 @@ html {
   padding: 1.6rem 3.2rem;
   font-weight: 600;
   display: inline-block;
+  border-radius: 10px 100px / 120px;
+  text-align: center;
 }
 
 .container {

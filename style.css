@@ -34,16 +34,10 @@ SPACING:
 128px
 
 
-
 */
 
 header {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.225),
-      rgba(0, 0, 0, 0.525)
-    ),
-    url(./imgs/marble.jpg);
+  background-image: url(./imgs/backgrounds/dim-gunger-5hCCVzElPGI-unsplash.jpg);
   background-size: cover;
   height: 100vh;
 }
@@ -59,7 +53,6 @@ nav {
 .nav-links {
   display: flex;
   gap: 2.8rem;
-  /* align-items: center; */
 }
 
 .nav-link:link,
@@ -73,8 +66,8 @@ nav {
 
 .nav-link:hover,
 .nav-link:active {
-  transition: all 0.3s;
-  color: #065940;
+  transition: all 0.5s;
+  transform: translateY(-0.8rem);
 }
 
 .section-hero {
@@ -98,7 +91,7 @@ nav {
   font-size: 3.2rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
-  margin-bottom: 6.4rem;
+  margin-bottom: 16.4rem;
 }
 
 .hero-text {
@@ -110,28 +103,33 @@ nav {
 .btn-hero:link,
 .btn-hero:visited {
   color: #fff;
-  background-color: #065940;
-  border: 3px solid #b5d9ce;
+  border: 3px solid #fff;
 }
 
 .btn-hero:hover,
 .btn-hero:active {
   transition: all 0.3s;
-  background-color: #066649;
+  background-color: #013440;
+  transform: translateY(-0.8rem);
+  box-shadow: 0 5px 5px #fff;
+}
+
+.btn-hero span {
+  font-size: 4.8rem;
 }
 
 .section-profile {
-  position: relative;
-  /* background-color: #b5d9ce; */
   padding: 9.6rem 3.2rem;
-  color: #033324;
+  color: #026873;
   line-height: 1.6;
+}
 
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.225),
-    rgba(0, 0, 0, 0.525)
-  );
+.profile-info {
+  position: relative;
+  padding: 5rem;
+  border: 5px solid #013440;
+  border-radius: 100px 10px / 100px;
+  overflow: hidden;
 }
 
 .profile-header {
@@ -147,7 +145,7 @@ nav {
 }
 
 .profile-core-text {
-  border-top: 1px solid #065940;
+  border-top: 1px solid #013440;
   padding-top: 1.6rem;
   font-size: 2.5rem;
   font-weight: 400;
@@ -155,61 +153,53 @@ nav {
 }
 
 .profile-quote {
-  font-size: 3.9rem;
-  font-weight: 400;
+  color: #013440;
+  font-size: 3.2rem;
+  font-weight: 600;
   margin-bottom: 3.2rem;
-  color: #b5d9ce;
   text-align: center;
 }
 
 .profile-quote span {
   font-size: 4.8rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.resume {
+.profile-btn {
   text-align: center;
 }
 
 .btn-profile:link,
 .btn-profile:visited {
+  text-decoration: none;
   color: #fff;
-  background-color: #065940;
-  border: 3px solid #b5d9ce;
+  background-color: #013440;
+  border: 3px solid #333;
 }
 
 .btn-profile:hover,
 .btn-profile:active {
   transition: all 0.3s;
-  background-color: #066649;
+  background-color: #026873;
+  transform: translateY(-0.8rem);
+  box-shadow: 0px 5px 5px #013440;
 }
 
-.profile-img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.profile-pane {
+  position: relative;
+  border-radius: 10px 100px / 100px;
+  border: 5px solid #013440;
+  /* background: linear-gradient(
+    -45deg,
+    rgba(217, 87, 11, 0.425),
+    rgba(2, 104, 115, 0.425)
+  ); */
+  background-image: linear-gradient(rgba(1, 52, 64, 0.4), rgba(1, 52, 64, 0.4)),
+    url(./imgs/backgrounds/2.jpg);
+  background-size: cover;
+  background-position: center;
 
-.profile-img {
-  height: 48rem;
-  z-index: 1;
-}
-
-.connector-img {
-  position: absolute;
-  top: 0;
-  right: 20rem;
-  height: 96rem;
-  opacity: 0.5;
-}
-
-.section-portflio {
-  padding: 9.6rem 3.2rem;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.225),
-    rgba(0, 0, 0, 0.525)
-  );
+  background-position: center top;
 }
 
 .portfolio-header {
