@@ -205,20 +205,12 @@ nav {
   padding: 9.6rem 3.2rem;
 }
 
-.portfolio-container {
-  padding: 6.4rem 0;
-}
-
 .portfolio-header {
-  /* color: var(--white-color);
+  color: var(--white-color);
+  margin-bottom: 4.2rem;
+  letter-spacing: 0.15rem;
   font-size: 3.9rem;
   font-weight: 500;
-  margin-bottom: 3.8rem;
-  letter-spacing: 0.15rem; */
-  color: var(--prime-color);
-  font-size: 3.9rem;
-  font-weight: 500;
-  margin-bottom: 3.2rem;
 }
 
 .portfolio-img-container {
