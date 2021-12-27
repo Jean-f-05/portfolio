@@ -309,3 +309,19 @@ nav {
   transform: translateY(-0.8rem);
   box-shadow: 0px 5px 5px var(--prime-color);
 }
+
+.section-footer {
+  padding: 1.8rem 1.4rem;
+  border-top: 1px solid var(--main-color);
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 1.4rem;
+  color: var(--prime-color);
+  margin: auto 0;
+}

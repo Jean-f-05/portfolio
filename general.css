@@ -80,3 +80,8 @@ html {
   row-gap: 10rem;
   /* justify-items: center; */
 }
+
+ion-icon {
+  font-size: 32px;
+  color: var(--main-color);
+}
