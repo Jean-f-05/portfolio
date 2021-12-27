@@ -310,6 +310,10 @@ nav {
   box-shadow: 0px 5px 5px var(--prime-color);
 }
 
+textarea {
+  font-size: 1.8rem;
+}
+
 .section-footer {
   padding: 1.8rem 1.4rem;
   border-top: 1px solid var(--main-color);
