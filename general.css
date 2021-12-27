@@ -7,9 +7,25 @@ PRIMARY COLORS
 #BF3A0A
 
 
+#012129;
+#0396a6;
+
+
+
+#026873;
+
 SHADES
 #391103;
 */
+:root {
+  --main-color: #013440;
+  --prime-color: #012129;
+  --second-color: #0396a6;
+  --secondary-color: #d9560b;
+
+  --white-color: #fff;
+  --blue-text: #026873;
+}
 
 * {
   font-size: 2.5rem;
@@ -26,7 +42,7 @@ body {
 
 html {
   font-size: 62.5%;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .btn {
@@ -44,6 +60,11 @@ html {
   padding: 0 3.2rem;
 }
 
+.container-flex {
+  display: flex;
+  gap: 10rem;
+}
+
 .grid {
   display: grid;
 }
@@ -56,6 +77,6 @@ html {
 .grid--3-cols {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5rem;
-  row-gap: 5rem;
+  row-gap: 10rem;
   /* justify-items: center; */
 }
