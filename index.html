@@ -117,10 +117,10 @@
         </div>
 
         <div class="cta-form">
-          <form  name="contact" netlify>
+          <form  name="contact" action="#" netlify>
               <div>
                 <label for="name">Your Name</label>
-                <input type="text" name="name" id="name" placeholder="e.g., John Doe" />
+                <input type="text" name="name" id="name" placeholder="e.g., John Doe" required/>
               </div>
 
               <div>
@@ -129,7 +129,7 @@
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="e.g., John.doe@hotmail.com"
+                  placeholder="e.g., John.doe@hotmail.com" required
                 />
               </div>
 
@@ -140,7 +140,8 @@
                   name="comment"
                   id="comment"
                   cols="23"
-                  rows="5"
+                  rows="5" 
+                  required
                 ></textarea>
               </div>
           
