@@ -117,16 +117,17 @@
         </div>
 
         <div class="cta-form">
-          <form action="">
+          <form  name="contact" netlify>
               <div>
                 <label for="name">Your Name</label>
-                <input type="text" id="name" placeholder="e.g., John Doe" />
+                <input type="text" name="name" id="name" placeholder="e.g., John Doe" />
               </div>
 
               <div>
                 <label for="email">Your E-mail</label>
                 <input
                   type="email"
+                  name="email"
                   id="email"
                   placeholder="e.g., John.doe@hotmail.com"
                 />
@@ -135,6 +136,7 @@
               <div>
                 <label for="comment">Jean, we would like to:</label>
                 <textarea
+                  name="comment"
                   name="comment"
                   id="comment"
                   cols="23"
