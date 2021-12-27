@@ -71,61 +71,57 @@
     </section>
 
     <section class="section-portflio">
-      <div class="container portfolio-header">
-        <h2 class="porfolio-header">SOME OF MY WORKS</h2>
-      </div>
-      <div class="container grid grid--3-cols">
-        <div class="portfolio-container">
-          <a href="https://nameless-mountain-78275.herokuapp.com/">
-            <img class="portfolio-img" src="./imgs/websites/yelp.png" alt="" />
-          </a>
-        </div>
-
-        <div class="portfolio-container">
-          <a href="https://sheltered-earth-73815.herokuapp.com/">
-            <img
+      <div class="container portfolio-container">
+        <h2 class="portfolio-header ">Some of my works</h2>
+        <div class=" grid grid--3-cols">
+          <div class="portfolio-img-container">
+            <a href="https://nameless-mountain-78275.herokuapp.com/">
+              <img class="portfolio-img" src="./imgs/websites/yelp.png" alt="" />
+            </a>
+          </div>
+          
+          <div class="portfolio-img-container">
+            <a href="https://sheltered-earth-73815.herokuapp.com/">
+              <img
               class="portfolio-img"
               src="./imgs/websites/register.png"
               alt=""
-            />
-          </a>
-        </div>
-        <div class="portfolio-container">
-          <a href="https://rocky-brook-71353.herokuapp.com/webconference">
-            <img
+              />
+            </a>
+          </div>
+          <div class="portfolio-img-container">
+            <a href="https://rocky-brook-71353.herokuapp.com/webconference">
+              <img
               class="portfolio-img"
               src="./imgs/websites/webconference.png"
               alt=""
-            />
-          </a>
+              />
+            </a>
+          </div>
+          <div class="portfolio-img-container">
+            <a href="https://omnifood-jf.netlify.app">
+              <img class="portfolio-img" src="./imgs/websites/omni.png" alt="" />
+            </a>
+          </div>
+          <div class="portfolio-img-container container-wip">
+            <img class="portfolio-img" src="./imgs/websites/mbTest.png" alt="" />
+          </div>
+          <!-- <div class="portfolio-container">6</div> -->
         </div>
-        <div class="portfolio-container">
-          <a href="https://omnifood-jf.netlify.app">
-            <img class="portfolio-img" src="./imgs/websites/omni.png" alt="" />
-          </a>
-        </div>
-        <div class="portfolio-container container-wip">
-          <img class="portfolio-img" src="./imgs/websites/mbTest.png" alt="" />
-        </div>
-        <!-- <div class="portfolio-container">6</div> -->
       </div>
     </section>
+
     <section class="section-cta">
-      <div class="container grid grid--2-cols">
-        <div>
+      <div class="container container-flex">
+        <div class="cta-info">
           <h1 class="cta-header">GET IN TOUCH!</h1>
-          <p class="cta-text">
-            If you would like to know more about me or my works, reach me.
-          </p>
-          <div class="cta-img"></div>
         </div>
 
-        <div>
+        <div class="cta-form">
           <form action="">
-            <div class="cta-form">
               <div>
                 <label for="name">Your Name</label>
-                <input type="text" id="name" placeholder="John Doe" />
+                <input type="text" id="name" placeholder="e.g., John Doe" />
               </div>
 
               <div>
@@ -133,21 +129,21 @@
                 <input
                   type="email"
                   id="email"
-                  placeholder="John.doe@hotmail.com"
+                  placeholder="e.g., John.doe@hotmail.com"
                 />
               </div>
 
               <div>
-                <label for="comment">A spectacular comment</label>
+                <label for="comment">Jean, we would like to:</label>
                 <textarea
                   name="comment"
                   id="comment"
-                  cols="20"
+                  cols="23"
                   rows="5"
                 ></textarea>
               </div>
-            </div>
-            <button class="btn">SUBMIT</button>
+          
+            <button class="btn btn-cta">SUBMIT</button>
           </form>
         </div>
       </div>
