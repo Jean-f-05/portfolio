@@ -1,0 +1,87 @@
+/* 
+PRIMARY COLORS
+#013440
+#026873
+#590C13
+#D9560B
+#BF3A0A
+
+
+#012129;
+#0396a6;
+
+
+
+#026873;
+
+SHADES
+#391103;
+*/
+:root {
+  --main-color: #013440;
+  --prime-color: #012129;
+  --second-color: #0396a6;
+  --secondary-color: #d9560b;
+
+  --white-color: #fff;
+  --blue-text: #026873;
+}
+
+* {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+}
+
+html {
+  font-size: 62.5%;
+  color: var(--white-color);
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 10px 100px / 120px;
+  text-align: center;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.container-flex {
+  display: flex;
+  gap: 10rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 50% 50%;
+  column-gap: 10rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 10rem;
+  /* justify-items: center; */
+}
+
+ion-icon {
+  font-size: 32px;
+  color: var(--main-color);
+}
