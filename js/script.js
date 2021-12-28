@@ -1,6 +1,9 @@
 const links = document.querySelector(".nav-links");
 const btnHero = document.querySelector(".btn-hero");
 const profile = document.querySelector("#profile");
+const header = document.querySelector("header");
+
+//BTNS SMOOTH SCROLL
 
 links.addEventListener("click", function (e) {
   e.preventDefault();
@@ -18,10 +21,18 @@ btnHero.addEventListener("click", function (e) {
   e.preventDefault();
   profile.scrollIntoView({ behavior: "smooth" });
 });
-// let options = {
-//   root: document.querySelector("#profile"),
-//   rootMargin: "0px",
-//   threshold: 1.0,
-// };
 
-// let observer = new IntersectionObserver(callback, options);
+//INTERSECTION OBSERVER ---- FIXED NAVBAR
+
+let options = {
+  root: null,
+  rootMargin: "-96px",
+  threshold: 0,
+};
+
+let observer = new IntersectionObserver(function (e) {
+  if (!e[0].isIntersecting) document.body.classList.add("sticky");
+  if (e[0].isIntersecting) document.body.classList.remove("sticky");
+}, options);
+
+observer.observe(header);

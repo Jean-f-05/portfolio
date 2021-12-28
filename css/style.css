@@ -55,6 +55,21 @@ nav {
   gap: 2.8rem;
 }
 
+.sticky .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url(../imgs/backgrounds/bottom.png);
+  background-size: cover;
+  /* background-color: var(--blue-text) !important; */
+  height: 9.6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.3);
+}
+
 .nav-link:link,
 .nav-link:visited {
   display: inline-block;
