@@ -148,13 +148,13 @@ nav {
 }
 
 .profile-header {
-  font-size: 3.9rem;
+  font-size: 3.2rem;
   font-weight: 500;
   margin-bottom: 3.2rem;
 }
 
 .profile-header--text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   margin-bottom: 3.2rem;
 }
@@ -162,7 +162,7 @@ nav {
 .profile-core-text {
   border-top: 1px solid var(--prime-color);
   padding-top: 1.6rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   margin-bottom: 3.2rem;
 }
@@ -224,8 +224,9 @@ nav {
   color: var(--white-color);
   margin-bottom: 4.2rem;
   /* letter-spacing: 0.15rem; */
-  font-size: 3.9rem;
+  font-size: 3.2rem;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .portfolio-img-container {
