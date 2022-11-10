@@ -3,7 +3,7 @@ const btnHero = document.querySelector(".btn-hero");
 const profile = document.querySelector("#profile");
 const header = document.querySelector("header");
 
-//BTNS SMOOTH SCROLL
+//BTNS SMOOTH SCROLL //
 
 links.addEventListener("click", function (e) {
   e.preventDefault();
